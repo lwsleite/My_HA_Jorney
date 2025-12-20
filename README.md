@@ -1,2 +1,4 @@
 # My_HA_Jorney
-#deucerto
+# agora deu certo de verdade
+# Proximos passos
+    - 
