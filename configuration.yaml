@@ -2,12 +2,11 @@
 # Loads default set of integrations. Do not remove.
 default_config:
 
-#http:
-#  api_password: !secret http_password
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-  base_url: !secret base_url
+http:
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
+#  api_password: !secret http_password
+#  base_url: !secret base_url
 
 # Load frontend themes from the themes folder
 frontend:
